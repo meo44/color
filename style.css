@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.father {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    margin: 10px;
+    width: calc(100%/16);
+    padding-bottom: calc(100%/16);
+    background-color: orange;
+}
